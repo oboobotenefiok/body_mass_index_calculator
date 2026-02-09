@@ -1,0 +1,17 @@
+[package]
+name = "body_mass_index_calculator"
+version = "0.1.0"
+edition = "2024"
+authors = ["Obot Obo <oboobotenefiok@gmail.com>"]
+  description = "A simple BMI (Body Mass Index) calculator"
+  readme = "README.md"
+  license = "MIT"
+  repository = "https://github.com/oboobotenefiok/body_mass_index_calculator.git"
+  keywords = ["bmi", "health", "calculator"]
+  categories = ["command-line-utilities"]
+  
+  [package.metadata.docs.rs]
+  all-features = true
+  
+  [dependencies]
+  # Nothing to see here bro. I used only std
