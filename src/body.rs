@@ -1,7 +1,7 @@
 pub struct Body {
     mass: f64,
     height: f64, // Remove this comma ,
-                 // I removed it but noticed cargo fmt keeps adding it back. Cool though. Same wuth match.
+                 // I removed it but noticed cargo fmt keeps adding it back. Cool though. Same with match.
 }
 
 /* Would shorten but that will defeat original intent to learn Struct & Impl */
